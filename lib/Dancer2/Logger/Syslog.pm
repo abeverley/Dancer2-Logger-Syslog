@@ -50,8 +50,7 @@ sub _syslog_open {
     1; # openlog() will have croaked if it can't connect
 }
 
-# XXX How to catch destruction?
-# sub DESTROY { closelog() }
+sub DESTROY { closelog() }
 
 sub log {
     my ($self, $level, $message) = @_;
