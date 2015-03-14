@@ -1,6 +1,5 @@
 Changes
 CONTRIBUTORS
-Dancer2-Logger-Syslog-0.1.tar.gz
 ignore.txt
 lib/Dancer2/Logger/Syslog.pm
 Makefile.PL
