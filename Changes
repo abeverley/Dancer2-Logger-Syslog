@@ -1,5 +1,8 @@
 Revision history for Dancer2-Logger-Syslog
 
-0.1 2014-012-30
+0.2 2015-03-17
+ - Added missing pod coverage for log method
+
+0.1 2014-12-30
  - First version, based on Dancer-Logger-Syslog
 
