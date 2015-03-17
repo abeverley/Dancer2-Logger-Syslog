@@ -91,6 +91,12 @@ version 0.1
 This module implements a logger engine that send log messages to syslog,
 through the Sys::Syslog module.
 
+=head1 METHODS
+
+=head2 log($level, $message)
+
+Writes the log message to the file.
+
 =head1 CONFIGURATION
 
 The setting B<logger> should be set to C<Syslog> in order to use this logging
