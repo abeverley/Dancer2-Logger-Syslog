@@ -18,7 +18,7 @@ no_index:
     - t
     - inc
 requires:
-  Dancer2: '0'
+  Dancer2: '0.151'
   File::Basename: '0'
   Moo: '0'
   Sys::Syslog: '0'
@@ -26,4 +26,4 @@ resources:
   bugtracker: https://github.com/ctrlo/Dancer2-Logger-Syslog/issues
   homepage: https://github.com/ctrlo/Dancer2-Logger-Syslog/
   repository: https://github.com/ctrlo/Dancer2-Logger-Syslog
-version: '0.2'
+version: '0.3'

@@ -12,7 +12,7 @@ WriteMakefile(
       : ()),
     PL_FILES            => {},
     PREREQ_PM => {
-        'Dancer2' => 0,
+        'Dancer2' => 0.151,
         "File::Basename" => 0,
         "Moo" => 0,
         "Sys::Syslog" => 0

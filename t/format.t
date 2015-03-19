@@ -19,7 +19,7 @@ sub Sys::Syslog::syslog {
     subtest syslog => sub {
         plan tests    => 2;
         is $level     => 'debug';
-        like $message => qr'\hdebug\h';
+        like $message => qr'\sdebug\s';
     }
 }
 

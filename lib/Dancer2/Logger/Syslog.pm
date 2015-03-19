@@ -1,6 +1,6 @@
 package Dancer2::Logger::Syslog;
 # ABSTRACT: Dancer2 logger engine for Sys::Syslog
-$Dancer2::Logger::Syslog::VERSION = '0.2';
+$Dancer2::Logger::Syslog::VERSION = '0.3';
 
 use Moo;
 use File::Basename 'basename';
@@ -84,7 +84,7 @@ Dancer2::Logger::Syslog - Dancer2 logger engine for Sys::Syslog
 
 =head1 VERSION
 
-version 0.2
+version 0.3
 
 =head1 DESCRIPTION
 
