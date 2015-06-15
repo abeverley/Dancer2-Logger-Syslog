@@ -1,5 +1,5 @@
 
-# DANCER-LOGGER-SYSLOG CONTRIBUTORS #
+# DANCER2-LOGGER-SYSLOG CONTRIBUTORS #
 
 This is the (likely incomplete) list of people who have helped
 make this distribution what it is, either via code contributions, 
@@ -7,3 +7,4 @@ patches, bug reports, help with troubleshooting, etc. A huge
 thank to all of them.
 
     * Yanick Champoux <yanick@cpan.org
+    * Clive Eisen <clive@hildebrand.co.uk>

@@ -1,5 +1,9 @@
 Revision history for Dancer2-Logger-Syslog
 
+0.4 2015-06-15
+ - Added host/type/port parameters (Clive Eisen)
+ - Added note about Dancer2::Logger::LogReport
+
 0.3 2015-03-18
  - Fix problems from CPAN Testers:
    - Add requirement for Dancer2 v0.151
