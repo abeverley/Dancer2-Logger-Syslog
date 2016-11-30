@@ -30,9 +30,9 @@ WriteMakefile(
     clean               => { FILES => 'Dancer2-Logger-Syslog-*' },
     META_MERGE => {
         resources => {
-            repository => 'https://github.com/ctrlo/Dancer2-Logger-Syslog',
-            bugtracker => 'https://github.com/ctrlo/Dancer2-Logger-Syslog/issues',
-            homepage   => 'https://github.com/ctrlo/Dancer2-Logger-Syslog/',
+            repository => 'https://github.com/abeverley/Dancer2-Logger-Syslog',
+            bugtracker => 'https://github.com/abeverley/Dancer2-Logger-Syslog/issues',
+            homepage   => 'https://github.com/abeverley/Dancer2-Logger-Syslog/',
         },
     },
 
