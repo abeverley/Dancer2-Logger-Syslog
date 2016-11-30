@@ -8,6 +8,7 @@ README.pod
 t/00-load.t
 t/01-log.t
 t/format.t
+t/lib/Sys/Syslog.pm
 t/pod-coverage.t
 t/pod.t
 xt/release/unused-vars.t
