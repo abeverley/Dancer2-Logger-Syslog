@@ -11,6 +11,15 @@ WriteMakefile(
       ? ('LICENSE'=> 'perl')
       : ()),
     PL_FILES            => {},
+    BUILD_REQUIRES => {
+        'Exporter'              => 0,
+        'HTTP::Request::Common' => 0,
+        'Plack'                 => '1.0029',    # OO-style Plack::Test
+        'Plack::Test'           => 0,
+        'Test::Deep'            => 0,
+        'Test::More'            => 0,
+        'Test::Warnings'        => 0,
+    },
     PREREQ_PM => {
         'Dancer2' => 0.151,
         "File::Basename" => 0,
@@ -21,9 +30,9 @@ WriteMakefile(
     clean               => { FILES => 'Dancer2-Logger-Syslog-*' },
     META_MERGE => {
         resources => {
-            repository => 'https://github.com/ctrlo/Dancer2-Logger-Syslog',
-            bugtracker => 'https://github.com/ctrlo/Dancer2-Logger-Syslog/issues',
-            homepage   => 'https://github.com/ctrlo/Dancer2-Logger-Syslog/',
+            repository => 'https://github.com/abeverley/Dancer2-Logger-Syslog',
+            bugtracker => 'https://github.com/abeverley/Dancer2-Logger-Syslog/issues',
+            homepage   => 'https://github.com/abeverley/Dancer2-Logger-Syslog/',
         },
     },
 
